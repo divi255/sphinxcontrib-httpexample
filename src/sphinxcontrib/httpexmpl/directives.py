@@ -3,9 +3,9 @@ from docutils import nodes
 from docutils.parsers.rst import directives
 from docutils.statemachine import StringList
 from sphinx.directives import CodeBlock
-from sphinxcontrib.httpexample import builders
-from sphinxcontrib.httpexample import parsers
-from sphinxcontrib.httpexample import utils
+from sphinxcontrib.httpexmpl import builders
+from sphinxcontrib.httpexmpl import parsers
+from sphinxcontrib.httpexmpl import utils
 
 import os
 
@@ -100,7 +100,7 @@ class HTTPExample(CodeBlock):
         # Append builder responses
         for name in chosen_builders:
             raw = ('\r\n'.join(request_content)).encode('utf-8')
-            request = parsers.parse_request(raw, config.httpexample_scheme)
+            request = parsers.parse_request(raw, config.httpexmpl_scheme)
             builder_, language = AVAILABLE_BUILDERS[name]
             command = builder_(request)
 

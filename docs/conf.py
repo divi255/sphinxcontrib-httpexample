@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# sphinxcontrib-httpexample documentation build configuration file, created by
+# sphinxcontrib-httpexmpl documentation build configuration file, created by
 # sphinx-quickstart on Fri Mar  3 12:29:43 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -30,7 +30,7 @@ import sys
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.httpdomain',
-              'sphinxcontrib.httpexample']
+              'sphinxcontrib.httpexmpl']
 
 try:
     import rst2pdf
@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'sphinxcontrib-httpexample'
+project = u'sphinxcontrib-httpexmpl'
 copyright = u'2017, Asko Soukka'
 author = u'Asko Soukka'
 
@@ -117,8 +117,8 @@ todo_include_todos = False
 # -- Options for PDF output -----------------------------------------------
 
 pdf_documents = [('index',
-                  u'sphinxcontrib-httpexample',
-                  u'sphincontrib-httpexample Documentation',
+                  u'sphinxcontrib-httpexmpl',
+                  u'sphincontrib-httpexmpl Documentation',
                   u'Asko Soukka')]
 
 # -- Options for HTML output ----------------------------------------------
@@ -217,7 +217,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sphinxcontrib-httpexampledoc'
+htmlhelp_basename = 'sphinxcontrib-httpexmpldoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -239,7 +239,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sphinxcontrib-httpexample.tex', u'sphinxcontrib-httpexample Documentation',
+    (master_doc, 'sphinxcontrib-httpexmpl.tex', u'sphinxcontrib-httpexmpl Documentation',
      u'Asko Soukka', 'manual'),
 ]
 
@@ -269,7 +269,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinxcontrib-httpexample', u'sphinxcontrib-httpexample Documentation',
+    (master_doc, 'sphinxcontrib-httpexmpl', u'sphinxcontrib-httpexmpl Documentation',
      [author], 1)
 ]
 
@@ -283,8 +283,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'sphinxcontrib-httpexample', u'sphinxcontrib-httpexample Documentation',
-     author, 'sphinxcontrib-httpexample', 'One line description of project.',
+    (master_doc, 'sphinxcontrib-httpexmpl', u'sphinxcontrib-httpexmpl Documentation',
+     author, 'sphinxcontrib-httpexmpl', 'One line description of project.',
      'Miscellaneous'),
 ]
 

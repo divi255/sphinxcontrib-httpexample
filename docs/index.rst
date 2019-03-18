@@ -1,7 +1,7 @@
 Sphinx directive for RESTful HTTP API examples
 ==============================================
 
-sphinxcontrib-httpexample enhances `sphinxcontrib-httpdomain`_, a Sphinx domain extension for describing RESTful HTTP APIs in detail, with a simple call example directive. The new directive provided by this extension generates RESTful HTTP API call examples for different tools from a single HTTP request example.
+sphinxcontrib-httpexmpl enhances `sphinxcontrib-httpdomain`_, a Sphinx domain extension for describing RESTful HTTP APIs in detail, with a simple call example directive. The new directive provided by this extension generates RESTful HTTP API call examples for different tools from a single HTTP request example.
 
 The audience for this extension are developers and technical writes documenting their RESTful HTTP APIs. This extension has originally been developed for documenting `plone.restapi`_.
 
@@ -11,13 +11,13 @@ The audience for this extension are developers and technical writes documenting 
 * Configuration:
 
   The URL scheme, either ``http`` or ``https``, used in the generated examples
-  can be configured with the ``httpexample_scheme`` configuration variable. It
+  can be configured with the ``httpexmpl_scheme`` configuration variable. It
   defaults to ``http``.
 
   ..  code-block:: python
 
       # conf.py
-      httpexample_scheme = 'https'
+      httpexmpl_scheme = 'https'
 
 * Syntax:
 

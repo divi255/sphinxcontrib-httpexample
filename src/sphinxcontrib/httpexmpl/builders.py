@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from sphinxcontrib.httpexample.utils import is_json
-from sphinxcontrib.httpexample.utils import maybe_str
+from sphinxcontrib.httpexmpl.utils import is_json
+from sphinxcontrib.httpexmpl.utils import maybe_str
 
 import ast
 import astunparse
@@ -194,6 +194,8 @@ def build_requests_command(request):
         elif isinstance(obj, bool):
             return ast.Name(obj, ast.Load())
         elif isinstance(obj, int):
+            return ast.Name(obj, ast.Load())
+        elif isinstance(obj, float):
             return ast.Name(obj, ast.Load())
         elif isinstance(obj, list):
             json_values = []

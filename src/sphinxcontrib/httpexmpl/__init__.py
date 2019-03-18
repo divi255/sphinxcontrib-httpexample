@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from sphinxcontrib.httpexample.directives import HTTPExample
+from sphinxcontrib.httpexmpl.directives import HTTPExample
 
 import os
 import pkg_resources
@@ -30,6 +30,6 @@ def setup(app):
     app.add_directive_to_domain('http', 'example', HTTPExample)
     app.add_javascript(JS_FILE)
     app.add_stylesheet(CSS_FILE)
-    app.add_config_value('httpexample_scheme', 'http', 'html')
-    dist = pkg_resources.get_distribution('sphinxcontrib-httpexample')
+    app.add_config_value('httpexmpl_scheme', 'http', 'html')
+    dist = pkg_resources.get_distribution('sphinxcontrib-httpexmpl')
     return {'version': dist.version}

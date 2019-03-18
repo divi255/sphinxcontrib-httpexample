@@ -3,7 +3,7 @@ import base64
 import json
 import pytest
 
-from sphinxcontrib.httpexample import parsers
+from sphinxcontrib.httpexmpl import parsers
 from .test_fixtures import FIXTURE_002_REQUEST, FIXTURE_010_REQUEST
 
 

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from io import BytesIO
-from sphinxcontrib.httpexample.utils import capitalize_keys
-from sphinxcontrib.httpexample.utils import is_json
-from sphinxcontrib.httpexample.utils import ordered
+from sphinxcontrib.httpexmpl.utils import capitalize_keys
+from sphinxcontrib.httpexmpl.utils import is_json
+from sphinxcontrib.httpexmpl.utils import ordered
 
 import base64
 import json

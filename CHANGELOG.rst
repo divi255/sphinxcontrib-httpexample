@@ -6,7 +6,7 @@ Changelog
 
 - Fix packaging to include setup.cfg in sdist
   [datakurre]
-- Add the guillotina docs (which now uses httpexample)
+- Add the guillotina docs (which now uses httpexmpl)
   [cdevienne]
 
 0.9.0 (2018-07-22)

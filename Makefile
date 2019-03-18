@@ -2,7 +2,7 @@ PYTHON ?= python3
 ARGSTR ?= --argstr python $(PYTHON)
 
 TEST = $(wildcard tests/*.py)
-SRC = $(wildcard src/sphinxcontrib/httpexample/*.py)
+SRC = $(wildcard src/sphinxcontrib/httpexmpl/*.py)
 
 .PHONY: all
 all: test coverage
