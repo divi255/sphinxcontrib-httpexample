@@ -191,6 +191,8 @@ def build_requests_command(request):
         obj = maybe_str(obj)
         if isinstance(obj, str):
             return ast.Str(obj)
+        elif obj is None:
+            return ast.Name(obj, ast.Load())
         elif isinstance(obj, bool):
             return ast.Name(obj, ast.Load())
         elif isinstance(obj, int):
